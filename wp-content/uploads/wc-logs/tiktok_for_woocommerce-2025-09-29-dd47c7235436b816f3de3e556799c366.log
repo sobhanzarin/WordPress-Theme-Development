@@ -1,0 +1,16 @@
+2025-09-29T11:28:17+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/business_profile/disconnect?external_data=
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_68c6c190d653a"}
+ ajax: no
+2025-09-29T11:28:17+00:00 ERROR Tt4b_Mapi_Class::tbp_post: Response: 
+
+http_request_failed: cURL error 7: Failed to connect to business-api.tiktok.com port 443 after 2120 ms: Couldn't connect to server
+
+2025-09-29T11:28:17+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/shop/connection/disconnect?external_data=
+
+--- EMPTY STRING ---
+ ajax: no
+2025-09-29T11:28:19+00:00 ERROR Tt4b_Mapi_Class::tts_shop_disconnect: Response: 
+
+http_request_failed: cURL error 7: Failed to connect to business-api.tiktok.com port 443 after 2074 ms: Couldn't connect to server
+

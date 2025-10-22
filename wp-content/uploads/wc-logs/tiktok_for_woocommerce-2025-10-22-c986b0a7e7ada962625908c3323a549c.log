@@ -1,0 +1,18 @@
+2025-10-22T07:01:36+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-10-22T07:01:36+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-10-22T07:08:58+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/business_profile/disconnect?external_data=
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_68c6c190d653a"}
+ ajax: no
+2025-10-22T07:08:58+00:00 ERROR Tt4b_Mapi_Class::tbp_post: Response: 
+
+http_request_failed: cURL error 28: Connection timed out after 5011 milliseconds
+
+2025-10-22T07:08:58+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/shop/connection/disconnect?external_data=
+
+--- EMPTY STRING ---
+ ajax: no
+2025-10-22T07:09:03+00:00 ERROR Tt4b_Mapi_Class::tts_shop_disconnect: Response: 
+
+http_request_failed: cURL error 28: Connection timed out after 5008 milliseconds
+

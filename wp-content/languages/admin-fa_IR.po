@@ -37,7 +37,7 @@ msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "+3.5"
 
-#: wp-admin/about.php:118
+#: wp-admin/about.php:138
 msgid "Speculative loading speeds up navigation by preloading links before users navigate to them, bcrypt hashing strengthens password security automatically, and database optimizations improve performance."
 msgstr "بارگذاری پیش‌بینانه با بارگذاری قبلی پیوندها پیش از هدایت کاربران، سرعت پیمایش را افزایش می‌دهد؛ فرآیند هش bcrypt امنیت گذرواژه‌ها را به‌صورت خودکار تقویت می‌کند؛ و بهینه‌سازی‌های پایگاه‌داده عملکرد کلی را ارتقا می‌بخشد."
 
@@ -220,68 +220,68 @@ msgstr "هدایت انتشار نسخه فرعی"
 msgid "Release Coordination"
 msgstr "هماهنگی انتشار"
 
-#: wp-admin/about.php:219
+#: wp-admin/about.php:239
 msgid "WordPress 6.8 packs a wide range of performance fixes and enhancements to speed up everything from editing to browsing. Beyond speculative loading, WordPress 6.8 pays special attention to the block editor, block type registration, and query caching. Plus, imagine never waiting longer than 50 milliseconds—for any interaction. In WordPress 6.8, the Interactivity API takes a first step toward that goal."
 msgstr "وردپرس ۶.۸ مجموعه گسترده‌ای از اصلاحات و بهبودهای عملکرد را ارائه می‌دهد تا همه چیز، از ویرایش گرفته تا مرور، سریع‌تر شود. فراتر از بارگذاری پیش‌بینانه، وردپرس ۶.۸ توجه ویژه‌ای به ویرایشگر بلوک، ثبت نوع بلوک و کش کردن کوئری‌ها دارد. به علاوه، تصور کنید که دیگر نیازی به انتظار بیش از ۵۰ میلی‌ثانیه برای هیچ تعاملی نداشته باشید. در وردپرس ۶.۸، API تعاملی اولین گام را به سمت این هدف برمی‌دارد."
 
-#: wp-admin/about.php:206
+#: wp-admin/about.php:226
 msgid "Work continues on optimizing cache key generation in the <code>WP_Query</code> class. The goal is, as ever, to boost your site&#8217;s performance, in this case by taking some more of the load off your database. This is especially good if you get a lot of traffic."
 msgstr "کار بر روی بهینه‌سازی تولید کلید کش در کلاس <code>WP_Query</code> ادامه دارد. هدف، مانند همیشه، افزایش عملکرد سایت شماست، در این مورد با کاهش بخشی دیگر از بار پایگاه‌داده. این به‌ویژه اگر ترافیک زیادی دریافت می‌کنید، بسیار مفید است."
 
-#: wp-admin/about.php:205
+#: wp-admin/about.php:225
 msgid "Take a load off the database"
 msgstr "باری از دوش پایگاه‌داده بردارید"
 
-#: wp-admin/about.php:197
+#: wp-admin/about.php:217
 msgid "100+ accessibility fixes and enhancements touch a broad spectrum of the WordPress experience. This release includes fixes to every bundled theme, improvements to the navigation menu management, the customizer, and simplified labeling. The Block Editor has over 70 improvements to blocks, DataViews, and to its overall user experience."
 msgstr "+۱۰۰ اصلاح و بهبود دسترسی‌پذیری، طیف گسترده‌ای از تجربه وردپرس را در بر می‌گیرد. این نسخه شامل اصلاحاتی برای هر پوسته همراه، بهبودهایی در مدیریت فهرست راهبری، سفارشی‌ساز و برچسب‌گذاری ساده‌تر است. ویرایشگر بلوک بیش از ۷۰ بهبود در بلوک‌ها، نمای داده‌ها و تجربه کاربری کلی خود دارد."
 
-#: wp-admin/about.php:183
+#: wp-admin/about.php:203
 msgid "Now passwords are harder to crack with bcrypt hashing, which takes a lot more computing power to break. This strengthens overall security, as do other encryption improvements across WordPress. You don&#8217;t need to do anything—everything updates automatically."
 msgstr "حالا شکستن گذرواژه‌ها با هش bcrypt سخت‌تر شده است، که برای رمزگشایی به قدرت محاسباتی بسیار بیشتری نیاز دارد. این امنیت کلی را تقویت می‌کند، همان‌طور که سایر بهبودهای رمزنگاری در سراسر وردپرس انجام می‌دهند. نیازی به انجام کاری ندارید—همه چیز به‌صورت خودکار به‌روزرسانی می‌شود."
 
-#: wp-admin/about.php:182
+#: wp-admin/about.php:202
 msgid "Stronger password security with bcrypt"
 msgstr "امنیت قوی‌تر گذرواژه با bcrypt"
 
-#: wp-admin/about.php:166
+#: wp-admin/about.php:186
 msgid "In WordPress 6.8, pages load faster than ever. When you or your user hovers over or clicks a link, WordPress may preload the next page, for a smoother, near-instant experience. The system balances speed and efficiency, and you can control how it works, with a plugin or your own code. This feature only works in modern browsers—older ones will simply ignore it without any impact."
 msgstr "در وردپرس ۶.۸، برگه‌ها سریع‌تر از همیشه بارگذاری می‌شوند. وقتی شما یا کاربرتان روی پیوندی هاور می‌کنید یا روی آن کلیک می‌کنید، وردپرس ممکن است برگه بعدی را پیش‌بارگذاری کند تا تجربه‌ای روان‌تر و تقریباً آنی داشته باشید. سیستم تعادلی بین سرعت و کارایی برقرار می‌کند و شما می‌توانید نحوه عملکرد آن را با یک افزونه یا کد خودتان کنترل کنید. این ویژگی فقط در مرورگرهای مدرن کار می‌کند—مرورگرهای قدیمی‌تر به‌سادگی آن را نادیده می‌گیرند بدون هیچ تأثیری."
 
-#: wp-admin/about.php:165
+#: wp-admin/about.php:185
 msgid "Near-instant page loads, thanks to Speculative Loading"
 msgstr "بارگذاری نزدیک به آنی برگه‌ها، با سپاس از بارگذاری پیش‌بینانه"
 
-#: wp-admin/about.php:159
+#: wp-admin/about.php:179
 msgid "Easier ways to see your options in Data Views, and you can exclude sticky posts from the Query Loop. Plus, you&#8217;ll find lots of little improvements in the editor that smooth your way through everything you build."
 msgstr "روش‌های ساده‌تر برای مشاهده گزینه‌هایتان در نمای داده‌ها، و می‌توانید نوشته‌های چسبیده را از چرخه کوئری حذف کنید. به علاوه، تعداد زیادی بهبود کوچک در ویرایشگر پیدا خواهید کرد که مسیر ساخت هر چیزی را برایتان هموارتر می‌کند."
 
-#: wp-admin/about.php:138
+#: wp-admin/about.php:158
 msgid "Plus, now you can see it in Classic themes that have editor-styles or a theme.json file. Find the Style Book under Appearance > Design and use it to preview your theme&#8217;s evolution, as you edit CSS or make changes in the Customizer."
 msgstr "به علاوه، حالا می‌توانید آن را در پوسته‌های کلاسیک که دارای سبک‌های ویرایشگر یا پرونده theme.json هستند، مشاهده کنید. کتاب سبک را در بخش ظاهر > طراحی پیدا کنید و از آن برای پیش‌نمایش تکامل پوسته‌تان استفاده نمایید، در حالی که CSS را ویرایش می‌کنید یا تغییراتی در سفارشی‌ساز اعمال می‌کنید."
 
 #. translators: %s is a direct link to the Style Book.
-#: wp-admin/about.php:134
+#: wp-admin/about.php:154
 msgid "Plus, now you can see it in Classic themes that have editor-styles or a theme.json file. Find <a href=\"%s\">the Style Book</a> under Appearance > Design and use it to preview your theme&#8217;s evolution, as you edit CSS or make changes in the Customizer."
 msgstr "به علاوه، حالا می‌توانید آن را در پوسته‌های کلاسیک که دارای سبک‌های ویرایشگر یا پرونده theme.json هستند، مشاهده کنید. <a href=\"%s\">کتاب سبک</a> را در بخش ظاهر > طراحی پیدا کنید و از آن برای پیش‌نمایش تکامل پوسته‌تان استفاده کنید، در حالی که CSS را ویرایش می‌کنید یا تغییراتی در سفارشی‌ساز اعمال می‌کنید."
 
-#: wp-admin/about.php:126
+#: wp-admin/about.php:146
 msgid "The Style Book has a new, structured layout and clearer labels, to make it even easier to edit colors, typography—almost all your site styles—in one place."
 msgstr "کتاب سبک دارای یک چیدمان تازه و ساختاریافته و برچسب‌های واضح‌تر است، تا ویرایش رنگ‌ها، تایپوگرافی—تقریباً تمام سبک‌های سایت شما—در یک مکان حتی ساده‌تر شود."
 
-#: wp-admin/about.php:124
+#: wp-admin/about.php:144
 msgid "The Style Book gets a cleaner look—and a few new tricks"
 msgstr "کتاب سبک ظاهری تمیزتر پیدا کرده است—و چند ترفند جدید هم دارد"
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:137
 msgid "The Style Book now has a structured layout and works with Classic themes, giving you more control over global styles."
 msgstr "کتاب سبک حالا دارای یک چیدمان ساختاریافته است و با پوسته‌های کلاسیک کار می‌کند، که به شما کنترل بیشتری بر سبک‌های سراسری می‌دهد."
 
-#: wp-admin/about.php:116
+#: wp-admin/about.php:136
 msgid "WordPress 6.8 polishes and refines the tools you use every day, making your site faster, more secure, and easier to manage."
 msgstr "وردپرس ۶.۸ ابزارهایی که هر روز استفاده می‌نمایید را صیقل داده و بهبود می‌بخشد، و سایت شما را سریع‌تر، امن‌تر و آسان‌تر برای مدیریت می‌نماید."
 
-#: wp-admin/about.php:115
+#: wp-admin/about.php:135
 msgid "A release polished to a high sheen."
 msgstr "انتشاری پرداخت‌شده و براق."
 
@@ -384,12 +384,12 @@ msgid "Skip to Editor"
 msgstr "پرش کردن به ویرایشگر"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:314
+#: wp-admin/about.php:334
 msgid "WordPress %s Field Guide"
 msgstr "راهنمای زمینۀ وردپرس %s"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:287
+#: wp-admin/about.php:307
 msgid "WordPress %s Release Notes"
 msgstr "یادداشت‌های انتشار وردپرس %s"
 
@@ -548,20 +548,20 @@ msgstr "اگر شما نویسنده یک افزونه هستید، می‌تو�
 msgid "If you are a plugin author, you can learn more about <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/\">how to add the Personal Data Eraser to a plugin</a>."
 msgstr "اگر شما نویسنده یک افزونه هستید، می‌توانید اطلاعات بیشتری درباره <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/\">اضافه کردن پاک‌کننده داده‌های شخصی به افزونه خود</a> بیابید."
 
-#: wp-admin/about.php:240
+#: wp-admin/about.php:260
 msgid "See everything new"
 msgstr "همه‌چیز جدید را مشاهده نمایید"
 
-#: wp-admin/about.php:240
+#: wp-admin/about.php:260
 msgid "https://wordpress.org/download/releases/6-8/"
 msgstr "https://fa.wordpress.org/download/releases/6-8/"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:232
+#: wp-admin/about.php:252
 msgid "For a comprehensive overview of all the new features and enhancements in WordPress %s, please visit the feature-showcase website."
 msgstr "برای مروری جامع از تمام ویژگی‌ها و پیشرفت‌های جدید در وردپرس ۶٫۶، لطفاً از وب‌سایت ویترین ویژگی دیدن کنید."
 
-#: wp-admin/about.php:226
+#: wp-admin/about.php:246
 msgid "And much more"
 msgstr "و بسیار بیشتر"
 
@@ -703,11 +703,11 @@ msgstr "هم‌اکنون نصب نمایید"
 msgid "Created by a worldwide team of passionate individuals"
 msgstr "ایجاد شده توسط تیمی در سراسر جهان از افراد پرشور"
 
-#: wp-admin/about.php:196
+#: wp-admin/about.php:216
 msgid "Accessibility improvements"
 msgstr "بهبودهای دسترسی‌پذیری"
 
-#: wp-admin/about.php:218
+#: wp-admin/about.php:238
 msgid "Performance updates"
 msgstr "به‌روزرسانی عملکرد"
 
@@ -771,12 +771,12 @@ msgid "When using Bulk Edit, you can change the metadata (categories, author, et
 msgstr "هنگام انجام کارهای دسته‌جمعی می‌توانید اطلاعات همه نوشته‌های انتخابی (مانند دسته‌ها، نویسنده و...) را یک‌جا ویرایش کنید. برای حذف هر نوشته از این گروه تنها کافیست روی دکمه <span class=\"screen-reader-text\">پاک کردن</span> %s کنار نام نوشته در ناحیه ویرایش دسته‌جمعی کلیک کنید."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:297
+#: wp-admin/about.php:317
 msgid "Read the WordPress %s Release Notes for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
 msgstr "برای اطلاع در مورد نصب، بهبودها، مشکلات برطرف‌شده، مشارکت‌کنندگان انتشار، منابع یادگیری و فهرست تغییرات فایل‌ها یادداشت‌های انتشار  وردپرس %s را بخوانید."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:324
+#: wp-admin/about.php:344
 msgid "Explore the WordPress %s Field Guide. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
 msgstr "راهنمای میدانی وردپرس %s را کاوش کنید. در مورد تغییرات این نسخه با یادداشت‌های دقیق توسعه‌دهنده اطلاعات کسب کنید که به شما در ساختن با وردپرس کمک می‌کند."
 
@@ -797,7 +797,7 @@ msgid "Your WordPress version is %1$s, however the new plugin version requires %
 msgstr "نگارش وردپرس شما %1$s است، با این حال نگارش تازهٔ افزونه به %2$s نیاز دارد."
 
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:79 wp-admin/about.php:104
+#: wp-admin/about.php:74 wp-admin/about.php:99 wp-admin/about.php:124
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -1264,7 +1264,7 @@ msgid "Be the future of WordPress"
 msgstr "آینده وردپرس باشید"
 
 #. translators: 1: Learn WordPress link, 2: Workshops link.
-#: wp-admin/about.php:265
+#: wp-admin/about.php:285
 msgid "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive workshops</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
 msgstr "<a href=\"%1$s\">یادگیری وردپرس</a> یک منبع رایگان برای کاربران جدید و با تجربه وردپرس است. یادگیری همراه با ویدیوهای نحوه استفاده از ویژگی‌های مختلف در وردپرس، <a href=\"%2$s\">رویدادهای تعاملی</a> برای کاوش عمیق موضوعات، و طرح‌های درسی برای کاوش عمیق در بخش‌های مختلف وردپرس است."
 
@@ -1410,12 +1410,12 @@ msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Docum
 msgstr "<a href=\"https://wordpress.org/documentation/article/customizer/\">مستندات سفارشی‌ساز</a>"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:405
+#: wp-admin/about.php:425
 msgid "https://wordpress.org/download/"
 msgstr "https://wordpress.org/download/"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:402
+#: wp-admin/about.php:422
 msgid "This is the final release of WordPress %s"
 msgstr "این نسخهٔ نهایی وردپرس %s است"
 
@@ -1739,12 +1739,12 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "با توسعه‌دهندگان هستهٔ وردپرس تماس بگیرید تا مطمئن شوید دیگر هرگز با این مشکل روبرو نخواهید شد."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:399
+#: wp-admin/about.php:419
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "مهم! نگارش وردپرس شما (%1$s) در آیندهٔ نزدیک به‌روزرسانی‌های امنیتی را دریافت نخواهد کرد. برای ایمن نگه داشتن سایتتان، لطفاً <a href=\"%2$s\">به تازه‌ترین نگارش وردپرس به‌روزرسانی نمایید</a>."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:396
+#: wp-admin/about.php:416
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "مهم! نگارش وردپرس شما (%1$s) دیگر پشتیبانی نمی‌شود، شما هیچ به‌روزرسانی امنیتی برای وب‌سایتتان دریافت نخواهید کرد. برای ایمن نگه داشتن سایتتان، لطفاً <a href=\"%2$s\">به تازه‌ترین نگارش وردپرس به‌روزرسانی نمایید</a>."
 
@@ -1754,7 +1754,7 @@ msgid "https://make.wordpress.org/core/wordpress-%s-field-guide/"
 msgstr "https://make.wordpress.org/core/wordpress-%s-field-guide/"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:256
+#: wp-admin/about.php:276
 msgid "Learn more about WordPress %s"
 msgstr "درباره وردپرس %s بیشتر بدانید"
 
@@ -2658,7 +2658,7 @@ msgstr "افزودن رمز عبور برنامه"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "نیازمند ایجاد یک رمز عبور برنامه، ولی بدون به‌روزرسانی کاربر."
 
-#: wp-admin/about.php:340
+#: wp-admin/about.php:360
 msgid "Go to Updates"
 msgstr "رفتن به به‌روز رسانی‌ها"
 
@@ -7642,7 +7642,7 @@ msgstr "معاون این انتشار"
 msgid "Release Design Lead"
 msgstr "سرپرست طراحی این نگارش"
 
-#: wp-admin/about.php:158
+#: wp-admin/about.php:178
 msgid "Editor improvements"
 msgstr "بهبودهای ویرایشگر"
 
@@ -8079,7 +8079,7 @@ msgid "(Currently set to: %s)"
 msgstr "(تنظیم کنونی: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:370
+#: wp-admin/about.php:390
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>نگارش %s</strong> یک مشکل امنیتی را برطرف کرده است."
 
@@ -8092,15 +8092,15 @@ msgstr "https://gravatar.com/"
 msgid "Profile Picture"
 msgstr "تصویر شناسنامه"
 
-#: wp-admin/about.php:59 wp-admin/about.php:367
+#: wp-admin/about.php:59 wp-admin/about.php:387
 msgid "Maintenance and Security Releases"
 msgstr "نگارش‌های تعمیراتی و امنیتی"
 
-#: wp-admin/about.php:364
+#: wp-admin/about.php:384
 msgid "Security Releases"
 msgstr "انتشارهای امنیتی"
 
-#: wp-admin/about.php:361
+#: wp-admin/about.php:381
 msgid "Maintenance Releases"
 msgstr "نگارش‌های تعمیراتی"
 
@@ -11369,44 +11369,46 @@ msgstr "نمایش نوارابزار هنگام مشاهده سایت"
 
 #. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:76 wp-admin/about.php:101 wp-admin/about.php:393
+#: wp-admin/about.php:71 wp-admin/about.php:96 wp-admin/about.php:121
+#: wp-admin/about.php:413
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "برای اطلاعات بیشتر، <a href=\"%s\">یادداشت‌های انتشار</a> را ببینید."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:387
+#: wp-admin/about.php:407
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>نگارش %1$s</strong> چند مسئله امنیتی و %2$s ایراد دیگر را برطرف کرده است."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:381
+#: wp-admin/about.php:401
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>نگارش %1$s</strong> یک مسئله امنیتی و %2$s ایراد دیگر را برطرف کرده است."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:64 wp-admin/about.php:89 wp-admin/about.php:375
+#: wp-admin/about.php:84 wp-admin/about.php:109 wp-admin/about.php:395
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>نگارش %1$s</strong> %2$s ایراد را برطرف کرده است."
 
+#. translators: %s: WordPress version.
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:372
+#: wp-admin/about.php:64 wp-admin/about.php:392
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>نگارش %s</strong> یک مسئله امنیتی را برطرف کرده است."
 
-#: wp-admin/about.php:366
+#: wp-admin/about.php:386
 msgid "Maintenance and Security Release"
 msgstr "انتشار امنیتی و تعمیراتی"
 
-#: wp-admin/about.php:363
+#: wp-admin/about.php:383
 msgid "Security Release"
 msgstr "انتشار امنیتی"
 
-#: wp-admin/about.php:360
+#: wp-admin/about.php:380
 msgid "Maintenance Release"
 msgstr "انتشار تعمیراتی"
 
@@ -11679,11 +11681,11 @@ msgstr "<strong>ویرایش</strong> شما را به صفحهٔ ویرایش �
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
 msgstr "به دلیل نصب وردپرس چندسایته، می‌توانید با وارد کردن نام‌کاربری یا ایمیل و تعیین نقش، حساب‌های کاربری موجود در شبکه را به آن بیافزایید. برای دسترسی به گزینه‌های بیشتر هم‌چون تغییر رمز عبور، شما باید مدیر شبکه باشید و در مسیر مدیر شبکه > همه‌ کاربران، از پیوندهایی که هنگام بردن موشواره روی نام کاربران ظاهر می‌شود برای ویرایش آن‌ها استفاده کنید."
 
-#: wp-admin/about.php:347
+#: wp-admin/about.php:367
 msgid "Go to Dashboard &rarr; Home"
 msgstr "رفتن به پیشخوان &larr; خانه"
 
-#: wp-admin/about.php:340
+#: wp-admin/about.php:360
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "رفتن به پیشخوان &larr; به‌روزرسانی‌ها"
 
@@ -12454,10 +12456,6 @@ msgstr "اعمال صافی‌ها"
 #: wp-admin/includes/theme.php:338
 msgid "Editor Style"
 msgstr "شیوهٔ ویرایشگر"
-
-#: wp-admin/users.php:235
-msgid "Sorry, you are not allowed to edit users."
-msgstr "متاسفانه شما اجازهٔ ویرایش این دیدگاه را ندارید."
 
 #: wp-admin/includes/file.php:2560
 msgid "To perform the requested action, WordPress needs to access your web server."
@@ -13377,7 +13375,7 @@ msgstr "به‌روزرسانی‌های وردپرس"
 msgid "Edit menu item"
 msgstr "ویرایش گزینه فهرست"
 
-#: wp-admin/about.php:347
+#: wp-admin/about.php:367
 msgid "Go to Dashboard"
 msgstr "رفتن به پیشخوان"
 

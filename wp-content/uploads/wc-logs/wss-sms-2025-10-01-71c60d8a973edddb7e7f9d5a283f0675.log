@@ -1,0 +1,9 @@
+2025-10-01T08:58:13+00:00 INFO {"Value":"-5","RetStatus":35,"StrRetStatus":"InvalidData"}
+2025-10-01T09:08:02+00:00 INFO {"Value":"-5","RetStatus":35,"StrRetStatus":"InvalidData"}
+2025-10-01T09:36:18+00:00 INFO {"Value":"-6","RetStatus":9,"StrRetStatus":"InternalError"}
+2025-10-01T10:06:34+00:00 INFO {"Value":"-5","RetStatus":35,"StrRetStatus":"InvalidData"}
+2025-10-01T10:15:29+00:00 INFO {"Value":"-5","RetStatus":35,"StrRetStatus":"InvalidData"}
+2025-10-01T10:26:53+00:00 INFO {"Value":"-5","RetStatus":35,"StrRetStatus":"InvalidData"}
+2025-10-01T10:29:32+00:00 INFO {"Value":"5067889381561594647","RetStatus":1,"StrRetStatus":"Ok"}
+2025-10-01T13:01:53+00:00 INFO {"Value":"5474630850361889671","RetStatus":1,"StrRetStatus":"Ok"}
+2025-10-01T13:27:57+00:00 INFO {"Value":"5371635413771321743","RetStatus":1,"StrRetStatus":"Ok"}

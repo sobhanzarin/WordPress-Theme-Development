@@ -3,7 +3,7 @@
 $header_post = get_posts([
   'post_type' => 'simagarheader',
   'post_status' => 'publish',
-  'numberposts'=>-1
+  'numberposts'=> -1
 ]);
 $headers_elementor = array();
 foreach ($header_post as $post) {
@@ -99,7 +99,7 @@ if( class_exists( 'CSF' ) ) {
     ),
   ),
   ));
-    CSF::createSection( $prefix, array(
+  CSF::createSection( $prefix, array(
     'title'  => 'استایل',
     'fields' => array(
 

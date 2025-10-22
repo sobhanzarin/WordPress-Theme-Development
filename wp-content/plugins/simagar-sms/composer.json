@@ -1,0 +1,13 @@
+{
+    "name": "simagar/simagar-sms",
+    "authors": [
+        {
+            "name": "sobhan zarin",
+            "email": "162406808+sobhanzarin@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": ["inc/"]
+    }
+}
