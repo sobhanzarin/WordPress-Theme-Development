@@ -35,11 +35,14 @@
     </div>
     <?php else: ?>
         
-        <header class="site=header">
+        <header class="site-header">
 
         <div class="header-main">
             <div class="container d-flex align-items-center justify-content-between p-3">
-              <div class="d-flex align-items-center" >
+            <div class="menu-mobile">
+                <span id="phone-nav-toggle" class="phone-nav-toggle" ><i class="fa-sharp fa-solid fa-bars"></i></span>
+            </div>  
+            <div class="d-flex align-items-center" >
                   <a class="ms-4 logo-header" href="<?php echo esc_url(home_url())?>">
                    <img width="<?php echo esc_attr($logo_width)?>px" src="<?php echo esc_url($logo['url']) ?>" alt="<?php echo esc_attr(get_bloginfo('name')) ?>">
                 </a>
@@ -58,9 +61,7 @@
                         <i class="icon-header fa-solid fa-headset"></i>
                     </div>
                 </div>
-                <div class="menu-mobile">
-                        <span class="phone-nav-toggle me-3" ><i class="fa-sharp fa-solid fa-bars"></i></span>
-                    </div>
+            
             </div> 
 
         </div>
@@ -78,7 +79,7 @@
                 </div>
             <div>
                     <div class="d-flex align-items-center justify-content-center"> 
-                          <div class="d-flex align-items-center">
+                          <div class="d-flex align-items-center gap-2">
                             <?php if($auth_btn_type == 'link'): ?>
                                   <!-- check login user  -->
                                 <?php if(is_user_logged_in()): ?>
@@ -109,6 +110,7 @@
                             
                             <?php endif; ?>
                             <a class="me-2 cart-holder" href="">
+                                <span class="count-cart" >1</span>
                                 <i class="icon-header fa-regular fa-cart-shopping"></i>
                             </a>
                           </div>

@@ -254,6 +254,21 @@ a.auth-holder:hover {
   border-radius: 6px;
   transition: all 0.3s ease;
 }
+span.count-cart {
+  position: absolute;
+  background-color: #008ecc;
+  width: 10px;
+  height: 10px;
+  color: #fff;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -3px;
+  right: 0px;
+}
 .cart-holder:hover {
   background-color: #008fcc34;
   transition: all 0.3s ease;
@@ -264,31 +279,4 @@ a.auth-holder:hover {
 .header-main {
   box-shadow: rgb(0 0 0 / 0%) 0px 10px 15px 0,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-}
-
-.phone-menu {
-  width: 300px;
-  height: 90%;
-  background-color: #fff;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(0, -50%);
-  right: 8px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px #bdbdbd;
-  z-index: 9999 !important;
-  border: 1px solid #acacac9e;
-  overflow: hidden;
-  padding: 18px;
-}
-
-@media (max-width: 991px) {
-  .search-holder,
-  .content-header {
-    display: none !important;
-  }
-  .menu-mobile {
-    display: flex !important;
-  }
 }

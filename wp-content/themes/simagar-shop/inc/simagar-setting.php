@@ -66,6 +66,14 @@ if( class_exists( 'CSF' ) ) {
       'default' => '130',
       'dependency' => array('header-type', '==', 'default')
     ),
+
+      array(
+      'id'      => 'logo-width-mobile',
+      'type'    => 'text',
+      'title'   => 'عرض لوگو موبایل رو به PX وارد نمایید.',
+      'default' => '100',
+      'dependency' => array('header-type', '==', 'default')
+    ),
     
      array(
       'id'          => 'auth-btn-type',
