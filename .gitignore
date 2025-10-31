@@ -1,0 +1,58 @@
+# Composer
+/vendor/
+composer.lock
+
+# WordPress core (if present)
+wp/
+wp-admin/
+wp-includes/
+wp-content/languages
+wp-content/jetpack-waf
+wp-content/upgrade-temp-backup
+readme.html
+
+# WP content
+wp-content/uploads/
+wp-content/jetpack-waf/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/plugins/
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+license.txt
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+wp-config-sample.php
+wp-activate.php
+.htaccess
+
+
+
+# Build / distribution
+dist/
+build/
+*.zip
+*.tar.gz
+*.rar
+
+# Logs & env
+.env
+*.log
+debug.log
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Temp / backups
+*.bak
+*.tmp
+*.swp
