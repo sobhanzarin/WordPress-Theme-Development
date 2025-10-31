@@ -85,6 +85,7 @@ $table_prefix = 'simagar_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
+define('WP_DEBUG_DISPLAY', false);
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
 

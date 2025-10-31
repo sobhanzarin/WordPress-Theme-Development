@@ -23,7 +23,6 @@ class WSS_Core
 
     public function __construct() {
 
-        // add_action('init', [$this, 'wss_load_textdomain']);
         add_action('plugins_loaded', [$this, 'wss_load_textdomain']);
         add_action('plugins_loaded', [$this, 'load_plugin']);
 
@@ -31,13 +30,6 @@ class WSS_Core
 
         register_activation_hook(WSS_BASE_FILE, [$this, 'active']);
         register_deactivation_hook(WSS_BASE_FILE, [$this, 'deactive']);
-
-
-        // if(version_compare(PHP_VERSION, self::MIN_PHP_VERSION, '<')){
-        //     add_action('admin_notices', [$this, 'admin_notices_handler']);
-        // }
-
-        // init hook برای همه کلاس‌ها و ترجمه‌ها
 
     }
 
