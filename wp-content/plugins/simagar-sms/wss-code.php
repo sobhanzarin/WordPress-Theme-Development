@@ -68,6 +68,9 @@ class WSS_Core
 
         new Assets();
         new WSS_SMS_Notification_Order();
+        new WSS_SMS_Notification_Subscription();
+        new WSS_SMS_Notification_Cancel();
+        new WSS_SMS_Notification_Test_Expiry();
     }
     public function wss_load_textdomain()
     {

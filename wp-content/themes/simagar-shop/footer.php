@@ -6,8 +6,21 @@
     $account_link = get_permalink(get_option('woocommerce_myaccount_page_id'));
     return $account_link;
     }
-
+    $footer_ele = simagar_setting('footer-elementor');
     ?>
+    <footer>
+         <?php
+        if($footer_ele) {
+            $post = get_post($footer_ele);
+            if(get_post_status($footer_ele) and get_post_type($footer_ele) === "simagarfooter"){
+            setup_postdata($post);
+            }
+            the_content();
+        } 
+
+        wp_reset_postdata();
+        ?>
+    </footer>
     <div class="login-modal">
         <div class="body p-4">
             <i class="close-modal d-flex align-items-center justify-content-center p-3 fa-solid fa-xmark" id="close-modal"></i>

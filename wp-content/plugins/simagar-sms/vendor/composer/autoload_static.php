@@ -65,11 +65,11 @@ class ComposerStaticInit23d8587e48fe7e9f97bb904c42bde70d
         'WP_Customize_Section_CSF' => __DIR__ . '/../..' . '/inc/admin/codestar/codestar-framework-master/functions/customize.php',
         'WSS_Melipayamak' => __DIR__ . '/../..' . '/inc/sms-portal/wss-melipayamak.php',
         'WSS_SMS' => __DIR__ . '/../..' . '/inc/wss-sms-main.php',
-        'WSS_SMS_NOTIFICATION' => __DIR__ . '/../..' . '/inc/wss-notification-subscription.php',
-        'WSS_SMS_New_Subscription' => __DIR__ . '/../..' . '/inc/wss-new-subscription.php',
+        'WSS_SMS_New_Subscription' => __DIR__ . '/../..' . '/inc/wss-subscription-renewal.php',
+        'WSS_SMS_Notification_Cancel' => __DIR__ . '/../..' . '/inc/wss-notification-cancel.php',
         'WSS_SMS_Notification_Order' => __DIR__ . '/../..' . '/inc/wss-notification-order.php',
-        'WSS_SMS_Notification_Order_Copy' => __DIR__ . '/../..' . '/inc/wss-notification-order copy.php',
-        'WSS_SMS_Notification_Test' => __DIR__ . '/../..' . '/inc/wss-notification-test.php',
+        'WSS_SMS_Notification_Subscription' => __DIR__ . '/../..' . '/inc/wss-notification-subscription.php',
+        'WSS_SMS_Notification_Test_Expiry' => __DIR__ . '/../..' . '/inc/wss-notification-subscription-test-expiry.php',
         'WSS_Sms_ir' => __DIR__ . '/../..' . '/inc/sms-portal/wss-smsdotir.php',
     );
 

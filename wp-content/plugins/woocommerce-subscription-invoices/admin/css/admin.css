@@ -1,0 +1,33 @@
+.wsi-manual-invoice .card {
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.wsi-manual-invoice .form-table {
+  width: 100%;
+}
+
+.wsi-manual-invoice .select2-container {
+  width: 100% !important;
+}
+
+.wsi-manual-invoice .description {
+  font-style: italic;
+  color: #666;
+  margin-top: 5px;
+}
+
+.wsi-status-pending {
+  color: #ffba00;
+  font-weight: bold;
+}
+
+.wsi-status-paid {
+  color: #00a32a;
+  font-weight: bold;
+}
+
+.wsi-status-cancelled {
+  color: #d63638;
+  font-weight: bold;
+}

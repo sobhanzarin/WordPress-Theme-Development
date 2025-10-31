@@ -16,12 +16,12 @@ class WSS_SMS_Notification_Order
         // if(!$this->order || !$this->order->is_paid()) {
         //     return;
         // }
-        if(wss_simagar("active-sms-order")) return null;
+        if(!wss_simagar("active-sms-order")) return null;
 
         $this->send();
     }
-
     private function send() {
+        
         // if(!$this->order) return;
 
         $phone = $this->order->get_billing_phone();
@@ -80,20 +80,6 @@ class WSS_SMS_Notification_Order
         }
 
         return $patern_arra;
-
-        // $pattern_array = [
-        //     'item_id'      => $this->order->get_id(),
-        //     'item_product' => $this->get_product(),
-        //     'name'         => $this->order->get_billing_first_name(),
-        //     'status'       => $this->order->get_status(),
-        //     'price'        => $this->order->get_total(),
-        // ];
-
-        // foreach($pattern_array as $key => $value){
-        //     $pattern = str_replace('{{'.$key.'}}', $value, $pattern);
-        // }
-
-        // return $pattern;
     }
 
     private function get_product() {
@@ -108,8 +94,8 @@ class WSS_SMS_Notification_Order
 
             $product_list[] = $name . '*' . $quantity;
         }
-        $final_string = implode(', ', $product_list);
+        // $final_string = implode(', ', $product_list);
 
-        return $final_string;
+        return $product_list;
     }
 }

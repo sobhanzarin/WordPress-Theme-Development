@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'db_simagar_theme' );
+define( 'DB_NAME', 'db_theme' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -85,8 +85,8 @@ $table_prefix = 'simagar_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', false );
-define( 'WP_DEBUG_LOG', false );
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 

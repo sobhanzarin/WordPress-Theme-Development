@@ -436,7 +436,7 @@ span.phone-nav-toggle i {
   height: 71%;
   background-color: #fff;
   position: fixed;
-  top: 15%;
+  top: 13%;
   left: auto;
   bottom: auto;
   right: 20px;
@@ -460,7 +460,7 @@ span.phone-nav-toggle i {
   margin-bottom: 20px;
 }
 .mobile-navigation .box-navigation {
-  padding: 24px 20px;
+  padding: 32px 20px;
   width: 94%;
   margin: 0 auto;
   height: 60px;
@@ -476,6 +476,30 @@ span.phone-nav-toggle i {
 .mobile-bottom-navitem span {
   font-size: 14px;
 }
+
+.phone-menu .body-menu .sub-menu-arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44px;
+  padding: 3px 0;
+  color: #858585;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+.phone-menu .body-menu ul.sub-menu {
+  display: none;
+  background-color: #f3f9fb;
+  padding: 3px 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.sub-menu li {
+  margin: 20px 0 !important;
+}
+
 @media (max-width: 991px) {
   .search-holder,
   .content-header {

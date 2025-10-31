@@ -1,5 +1,5 @@
 <?php 
-
+// header
 $header_post = get_posts([
   'post_type' => 'simagarheader',
   'post_status' => 'publish',
@@ -8,6 +8,17 @@ $header_post = get_posts([
 $headers_elementor = array();
 foreach ($header_post as $post) {
   $headers_elementor[$post->ID] = $post->post_title;
+}
+
+// footer
+$footer_post = get_posts([
+  'post_type' => 'simagarfooter',
+  'post_status' => 'publish',
+  'numberposts'=> -1
+]);
+$footer_elementor = array();
+foreach ($footer_post as $post) {
+  $footer_elementor[$post->ID] = $post->post_title;
 }
 
 // Control core classes for avoid errors
@@ -105,6 +116,30 @@ if( class_exists( 'CSF' ) ) {
       'title' => 'شماره تماس',
       'dependency' => array('header-type', '==', 'default')
     ),
+  ),
+  ));
+    CSF::createSection( $prefix, array(
+    'title'  => 'فوتر',
+    'fields' => array(
+
+      array(
+      'id'          => 'footer-type',
+      'type'        => 'select',
+      'title'       => 'نوع فوتر',
+      'placeholder' => 'نوع فوتر را انتخاب کنید',
+      'options'     => array(
+        'elementor'  => 'المنتور',
+      ),
+      'default'     => 'elementor'
+    ),
+      array(
+      'id'          => 'footer-elementor',
+      'type'        => 'select',
+      'title'       => 'انتخاب فوتر',
+      'placeholder' => 'فوتر خود را انتخاب کنید',
+      'options'     => $footer_elementor,
+    ),
+  
   ),
   ));
   CSF::createSection( $prefix, array(

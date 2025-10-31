@@ -1,0 +1,5 @@
+2025-10-27T12:34:50+00:00 INFO Subscription SMS Response - Subscription ID: 353 - Response: {"Value":"-5","RetStatus":35,"StrRetStatus":"InvalidData"}
+2025-10-27T12:43:18+00:00 INFO Subscription SMS Response - Subscription ID: 355 - Response: {"Value":"-5","RetStatus":35,"StrRetStatus":"InvalidData"}
+2025-10-27T12:44:15+00:00 INFO Subscription SMS Response - Subscription ID: 357 - Response: {"Value":"-5","RetStatus":35,"StrRetStatus":"InvalidData"}
+2025-10-27T12:48:55+00:00 INFO Subscription SMS Response - Subscription ID: 359 - Response: {"Value":"-5","RetStatus":35,"StrRetStatus":"InvalidData"}
+2025-10-27T12:50:18+00:00 INFO Subscription SMS Response - Subscription ID: 361 - Response: {"Value":"-5","RetStatus":35,"StrRetStatus":"InvalidData"}

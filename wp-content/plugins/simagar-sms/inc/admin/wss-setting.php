@@ -49,7 +49,7 @@ if( class_exists( 'CSF' ) ) {
   ) );
 
   CSF::createSection( $prefix, array(
-    'title'  => 'ارسال پیام',
+    'title'  => 'پرداخت محصول',
     'fields' => array(
     
   array(
@@ -78,7 +78,7 @@ if( class_exists( 'CSF' ) ) {
   ));  
 
   CSF::createSection( $prefix, array(
-    'title'  => 'ارسال پیام اشتراک',
+    'title'  => 'پرداخت اشتراک',
     'fields' => array(
     
   array(
@@ -97,16 +97,97 @@ if( class_exists( 'CSF' ) ) {
 
     array(
     'type'  => 'content',
-    'content' => '<p>سفارشات: {{item_product}}</p>'. 
-    '<p>تاریخ شروع اشتراک : {{start_date}}</p>'.
-    
-    '<p>تاریخ پایان اشتراک : {{end_date}}</p>'.
-    '<p>وضعیت اشتراک : {{subscription_status}}</p>'.
-    '<p>دوره‌ی پرداخت : {{billing_period}}</p>'.
-    '<p> فاصله‌ی پرداخت: {{billing_interval}}</p>'.
-    '<p>تاریخ پرداخت بعدی : {{next_payment_date}}</p>'),
-  )
+    'content' => '<p>وضعیت: {{status}}</p>' . 
+    '<p>نام کاربر : {{name}}</p>',)
+    )
   ));  
+
+  CSF::createSection( $prefix, array(
+    'title'  => 'نزدیک پایان انقضا',
+    'fields' => array(
+    
+    array(
+      'id'    => 'active-sms-subextension',
+      'type'  => 'switcher',
+      'title' => 'فعالسازی'),    
+    array(
+      'id'    => 'user-sms-parent-code-subextension',
+      'type'  => 'text',
+      'title' => 'کد الگو اشتراک'),
+
+      array(
+      'id'    => 'user-sms-parent-subextension',
+      'type'  => 'textarea',
+      'title' => 'الگو اشتراک'),
+
+      array(
+      'type'  => 'content',
+      'content' => '<p>سفارشات: {{item_product}}</p>'. 
+      '<p>تاریخ شروع اشتراک : {{start_date}}</p>'.
+      '<p>نام کاربر : {{name}}</p>'.
+      '<p>تاریخ پایان اشتراک : {{end_date}}</p>'.
+      '<p>وضعیت اشتراک : {{subscription_status}}</p>'.
+      '<p>دوره‌ی پرداخت : {{billing_period}}</p>'.
+      '<p> فاصله‌ی پرداخت: {{billing_interval}}</p>'.
+      '<p>تاریخ پرداخت بعدی : {{next_payment_date}}</p>'),
+    )
+  ));  
+
+  CSF::createSection( $prefix, array(
+    'title'  => 'لغو اشتراک',
+    'fields' => array(     
+
+    array(
+      'id'    => 'active-sms-cancel',
+      'type'  => 'switcher',
+      'title' => 'فعالسازی'),    
+    array(
+      'id'    => 'user-sms-parent-code-cancel',
+      'type'  => 'text',
+      'title' => 'کد الگو اشتراک'),
+
+      array(
+      'id'    => 'user-sms-parent-cancel',
+      'type'  => 'textarea',
+      'title' => 'الگو اشتراک'),
+
+      array(
+      'type'  => 'content',
+      'content' => '<p>سفارشات: {{item_product}}</p>'. 
+      '<p>نام کاربر : {{name}}</p>'.
+      '<p>وضعیت : {{status}}</p>'
+      ),
+      )
+  ));  
+
+  CSF::createSection( $prefix, array(
+    'title'  =>'انقضای یک روزه',
+    'fields' => array(     
+
+    array(
+      'id'    => 'active-sms-test-expiry',
+      'type'  => 'switcher',
+      'title' => 'فعالسازی'),    
+    array(
+      'id'    => 'sms-test-expiry-code',
+      'type'  => 'text',
+      'title' => 'کد الگو اشتراک'),
+
+      array(
+      'id'    => 'sms-test-expiry-patern',
+      'type'  => 'textarea',
+      'title' => 'الگو اشتراک'),
+
+      array(
+      'type'  => 'content',
+      'content' => '<p>سفارشات: {{item_product}}</p>'. 
+      '<p>تاریخ انقضا : {{expiry_date}}</p>'.
+      '<p> ساعت باقی مانده : {{hours_remaining}}</p>'.
+      '<p> لینک پرداخت : {{renewal_link}}</p>'.
+      '<p>نام کارفرما : {{name}}</p>'
+      ),
+      )
+  )); 
   
 }
 
