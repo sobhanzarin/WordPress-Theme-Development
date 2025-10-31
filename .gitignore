@@ -16,7 +16,6 @@ wp-content/uploads/
 wp-content/jetpack-waf/
 wp-content/cache/
 wp-content/upgrade/
-wp-content/plugins/
 wp-cron.php
 wp-links-opml.php
 wp-load.php
